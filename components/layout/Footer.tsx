@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const navLinks = [
   { href: "/gallery", label: "Gallery" },
@@ -12,12 +13,15 @@ export function Footer() {
   return (
     <footer className="bg-surface border-t border-surface mt-24">
       <div className="max-w-6xl mx-auto px-6 py-16 flex flex-col md:flex-row justify-between gap-10">
-        <div className="flex flex-col gap-3">
-          <Link
-            href="/"
-            className="font-heading text-heading-3 font-semibold text-text-primary"
-          >
-            GacheriCreates
+        <div className="flex flex-col gap-4">
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/logo.png"
+              alt="GacheriCreates"
+              width={140}
+              height={40}
+              className="object-contain brightness-0"
+            />
           </Link>
           <p className="text-caption text-text-secondary max-w-xs">
             Kenya wildlife photography and photo safaris.

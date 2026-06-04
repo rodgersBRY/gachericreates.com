@@ -19,7 +19,7 @@ export function Nav() {
             alt="GacheriCreates"
             width={140}
             height={40}
-            className="object-contain"
+            className="object-contain brightness-0"
             priority
           />
         </Link>
