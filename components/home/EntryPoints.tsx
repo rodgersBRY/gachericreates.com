@@ -38,21 +38,21 @@ function EntryCard({ href, publicId, imageAlt, title, descriptor, delay }: Entry
 const cards: Omit<EntryCardProps, "delay">[] = [
   {
     href: "/gallery",
-    publicId: "gachericreates/home/entry-gallery",
+    publicId: "bird1_krgptz",
     imageAlt: "A herd of elephants crossing the savanna at golden hour",
     title: "Gallery",
     descriptor: "Three collections — Migration, Big Cats, Landscapes.",
   },
   {
     href: "/prints",
-    publicId: "gachericreates/home/entry-prints",
+    publicId: "DSC_7057_copy_kji7lz",
     imageAlt: "A leopard resting in a fever tree, Samburu",
     title: "Fine Art Prints",
     descriptor: "Limited and open editions, shipped worldwide.",
   },
   {
     href: "/safaris",
-    publicId: "gachericreates/home/entry-safaris",
+    publicId: "DSC_8015_copy_jxajps",
     imageAlt: "Gacheri photographing from a safari vehicle at sunrise",
     title: "Photo Safaris",
     descriptor: "Small groups, dedicated vehicle, guided by Gacheri.",

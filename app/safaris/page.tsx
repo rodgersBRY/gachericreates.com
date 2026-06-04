@@ -20,7 +20,7 @@ export default function SafarisPage() {
     <div className="pt-16">
       <div className="relative w-full aspect-[16/7] bg-surface">
         <Image
-          src={cloudinaryUrl("gachericreates/safaris/hero", 2000)}
+          src={cloudinaryUrl("influencer_content_caayzf", 2000)}
           alt="Gacheri photographing from a safari vehicle at sunrise in the Masai Mara"
           fill
           priority

@@ -14,7 +14,7 @@ export default function AboutPage() {
     <div className="pt-16">
       <div className="relative w-full aspect-[16/7] bg-surface">
         <Image
-          src={cloudinaryUrl("gachericreates/about/hero-field", 2000)}
+          src={cloudinaryUrl("camera1_bygbu2", 2000)}
           alt="Gacheri crouching low to photograph a pride of lions at sunrise in the Masai Mara"
           fill
           priority

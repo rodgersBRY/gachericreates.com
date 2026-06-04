@@ -10,7 +10,7 @@ export function AboutSnippet() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <div className="relative aspect-[4/5] rounded-sm overflow-hidden bg-surface">
             <Image
-              src={cloudinaryUrl("gachericreates/about/portrait-field", 900)}
+              src={cloudinaryUrl("DSC_6557_copy_iyoqkz", 900)}
               alt="Gacheri photographing wildlife from a low angle in the Masai Mara"
               fill
               sizes="(min-width: 768px) 50vw, 100vw"
