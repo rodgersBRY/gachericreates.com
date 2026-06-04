@@ -4,24 +4,20 @@ import "./globals.css";
 import { Nav } from "@/components/layout/Nav";
 import { Footer } from "@/components/layout/Footer";
 
-// Place font files in /public/fonts/:
-//   CormorantGaramond-Regular.ttf, CormorantGaramond-Italic.ttf,
-//   CormorantGaramond-SemiBold.ttf  (from github.com/CatharsisFonts/Cormorant)
-//   InterVariable.ttf               (from github.com/rsms/inter releases)
 const cormorant = localFont({
   src: [
     {
-      path: "../public/fonts/CormorantGaramond-Regular.ttf",
+      path: "../public/fonts/CormorantGaramond-Regular.woff2",
       weight: "400",
       style: "normal",
     },
     {
-      path: "../public/fonts/CormorantGaramond-Italic.ttf",
+      path: "../public/fonts/CormorantGaramond-Italic.woff2",
       weight: "400",
       style: "italic",
     },
     {
-      path: "../public/fonts/CormorantGaramond-SemiBold.ttf",
+      path: "../public/fonts/CormorantGaramond-SemiBold.woff2",
       weight: "600",
       style: "normal",
     },
