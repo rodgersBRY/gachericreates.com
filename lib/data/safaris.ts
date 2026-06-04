@@ -1,0 +1,74 @@
+import type { SafariPackage } from "@/types";
+
+export const safariPackages: SafariPackage[] = [
+  {
+    id: "mara-migration",
+    title: "Mara Migration Safari",
+    duration: "7 days",
+    locations: ["Masai Mara"],
+    groupSize: "Maximum 4 guests",
+    includes: [
+      "All game drives with Gacheri",
+      "Accommodation (mid-range or luxury camp options)",
+      "All meals in the Mara",
+      "Airport transfers",
+      "Photography guidance throughout",
+    ],
+    priceRangeUSD: "4,500–6,500",
+    highlights: [
+      "Witness the wildebeest river crossings",
+      "Dedicated photography vehicle — no sharing",
+      "Golden-hour and sunrise drives every day",
+      "Personalised post-trip editing workshop",
+    ],
+    featuredImage:
+      "https://res.cloudinary.com/CLOUD_NAME/image/upload/gachericreates/safaris/mara-migration",
+  },
+  {
+    id: "northern-kenya",
+    title: "Northern Kenya Explorer",
+    duration: "8 days",
+    locations: ["Samburu", "Laikipia"],
+    groupSize: "Maximum 4 guests",
+    includes: [
+      "All game drives with Gacheri",
+      "Accommodation at small owner-run camps",
+      "All meals",
+      "Internal flights",
+      "Photography guidance throughout",
+    ],
+    priceRangeUSD: "5,500–7,500",
+    highlights: [
+      "Rare northern species — reticulated giraffe, Grevy's zebra, gerenuk",
+      "Remote, uncrowded reserves",
+      "Night-drive permits where available",
+      "Community visits to Samburu villages",
+    ],
+    featuredImage:
+      "https://res.cloudinary.com/CLOUD_NAME/image/upload/gachericreates/safaris/northern-kenya",
+  },
+  {
+    id: "kenya-grand-tour",
+    title: "Kenya Grand Tour",
+    duration: "12 days",
+    locations: ["Amboseli", "Masai Mara", "Samburu"],
+    groupSize: "Maximum 4 guests",
+    includes: [
+      "All game drives with Gacheri",
+      "Accommodation at curated camps and lodges",
+      "All meals on safari",
+      "All internal flights and transfers",
+      "Photography guidance throughout",
+      "Pre-departure photo brief",
+    ],
+    priceRangeUSD: "9,500–13,000",
+    highlights: [
+      "Kilimanjaro backdrop at Amboseli",
+      "Mara river crossings",
+      "Samburu endemic species",
+      "Kenya's full range of ecosystems and light",
+    ],
+    featuredImage:
+      "https://res.cloudinary.com/CLOUD_NAME/image/upload/gachericreates/safaris/kenya-grand-tour",
+  },
+];
