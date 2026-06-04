@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import { cloudinaryUrl } from "@/lib/utils/cloudinary";
 import { SafariCard } from "@/components/safaris/SafariCard";
 import { TestimonialBlock } from "@/components/safaris/TestimonialBlock";
 import { FAQ } from "@/components/safaris/FAQ";
@@ -19,7 +20,7 @@ export default function SafarisPage() {
     <div className="pt-16">
       <div className="relative w-full aspect-[16/7] bg-surface">
         <Image
-          src="https://res.cloudinary.com/CLOUD_NAME/image/upload/f_auto,q_auto,w_2000/gachericreates/safaris/hero"
+          src={cloudinaryUrl("gachericreates/safaris/hero", 2000)}
           alt="Gacheri photographing from a safari vehicle at sunrise in the Masai Mara"
           fill
           priority

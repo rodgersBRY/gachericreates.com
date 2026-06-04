@@ -4,6 +4,7 @@ import { useEffect, useCallback } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import type { CollectionImage } from "@/types";
+import { cloudinaryUrl } from "@/lib/utils/cloudinary";
 
 interface LightboxProps {
   images: CollectionImage[];
@@ -55,7 +56,7 @@ export function Lightbox({ images, currentIndex, onClose, onPrev, onNext }: Ligh
         >
           <div className="relative w-full h-full">
             <Image
-              src={image.src}
+              src={cloudinaryUrl(image.src, 2000)}
               alt={image.alt}
               fill
               sizes="90vw"

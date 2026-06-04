@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { cloudinaryUrl } from "@/lib/utils/cloudinary";
 
 export function Hero() {
   return (
@@ -13,7 +14,7 @@ export function Hero() {
         transition={{ duration: 1.2, ease: "easeOut" }}
       >
         <Image
-          src="https://res.cloudinary.com/CLOUD_NAME/image/upload/f_auto,q_auto,w_2000/gachericreates/hero"
+          src={cloudinaryUrl("gachericreates/hero", 2000)}
           alt="A lioness moves through golden grass at dawn in the Masai Mara"
           fill
           priority

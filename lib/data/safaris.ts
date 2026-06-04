@@ -21,8 +21,7 @@ export const safariPackages: SafariPackage[] = [
       "Golden-hour and sunrise drives every day",
       "Personalised post-trip editing workshop",
     ],
-    featuredImage:
-      "https://res.cloudinary.com/CLOUD_NAME/image/upload/gachericreates/safaris/mara-migration",
+    featuredImage: "gachericreates/safaris/mara-migration",
   },
   {
     id: "northern-kenya",
@@ -44,8 +43,7 @@ export const safariPackages: SafariPackage[] = [
       "Night-drive permits where available",
       "Community visits to Samburu villages",
     ],
-    featuredImage:
-      "https://res.cloudinary.com/CLOUD_NAME/image/upload/gachericreates/safaris/northern-kenya",
+    featuredImage: "gachericreates/safaris/northern-kenya",
   },
   {
     id: "kenya-grand-tour",
@@ -68,7 +66,6 @@ export const safariPackages: SafariPackage[] = [
       "Samburu endemic species",
       "Kenya's full range of ecosystems and light",
     ],
-    featuredImage:
-      "https://res.cloudinary.com/CLOUD_NAME/image/upload/gachericreates/safaris/kenya-grand-tour",
+    featuredImage: "gachericreates/safaris/kenya-grand-tour",
   },
 ];

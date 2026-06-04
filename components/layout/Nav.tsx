@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const links = [
   { href: "/gallery", label: "Gallery" },
@@ -12,11 +13,15 @@ export function Nav() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-sm border-b border-surface">
       <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <Link
-          href="/"
-          className="font-heading text-heading-3 font-semibold text-text-primary tracking-wide"
-        >
-          GacheriCreates
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/logo.png"
+            alt="GacheriCreates"
+            width={140}
+            height={40}
+            className="object-contain"
+            priority
+          />
         </Link>
 
         <ul className="hidden md:flex items-center gap-8">

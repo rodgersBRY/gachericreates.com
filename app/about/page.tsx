@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { cloudinaryUrl } from "@/lib/utils/cloudinary";
 
 export const metadata: Metadata = {
   title: "About Gacheri — GacheriCreates",
@@ -13,7 +14,7 @@ export default function AboutPage() {
     <div className="pt-16">
       <div className="relative w-full aspect-[16/7] bg-surface">
         <Image
-          src="https://res.cloudinary.com/CLOUD_NAME/image/upload/f_auto,q_auto,w_2000/gachericreates/about/hero-field"
+          src={cloudinaryUrl("gachericreates/about/hero-field", 2000)}
           alt="Gacheri crouching low to photograph a pride of lions at sunrise in the Masai Mara"
           fill
           priority
