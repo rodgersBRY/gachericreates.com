@@ -28,7 +28,9 @@ export default function SafarisPage() {
         />
         <div className="absolute inset-0 bg-text-primary/30" />
         <div className="absolute inset-0 flex flex-col justify-end pb-12 px-6 md:px-12 max-w-6xl mx-auto">
-          <h1 className="font-heading text-heading-1 text-white">Photo Safaris</h1>
+          <h1 className="font-heading text-heading-1 text-white">
+            Photo Safaris
+          </h1>
         </div>
       </div>
 
@@ -39,15 +41,16 @@ export default function SafarisPage() {
               Safari the way I do it
             </h2>
             <p className="text-body text-text-secondary leading-relaxed">
-              Every safari I lead is small — a maximum of four guests — in a dedicated vehicle with
-              no sharing. We go where the light is, stay as long as something is happening, and
-              leave when it makes sense to. There&rsquo;s no itinerary to chase and no pressure
-              to produce.
+              Every safari I lead is small — a maximum of four guests — in a
+              dedicated vehicle with no sharing. We go where the light is, stay
+              as long as something is happening, and leave when it makes sense
+              to. There&rsquo;s no itinerary to chase and no pressure to
+              produce.
             </p>
             <p className="text-body text-text-secondary leading-relaxed">
-              Whether you shoot on a mirrorless body or a phone, I&rsquo;ll help you see what I
-              see. Most guests leave not just with better images, but with a different way of
-              looking.
+              Whether you shoot on a mirrorless body or a phone, I&rsquo;ll help
+              you see what I see. Most guests leave not just with better images,
+              but with a different way of looking.
             </p>
           </div>
         </RevealOnScroll>
@@ -62,14 +65,18 @@ export default function SafarisPage() {
 
         <RevealOnScroll>
           <div className="flex flex-col gap-12">
-            <h2 className="font-heading text-heading-2 text-text-primary">What guests say</h2>
+            <h2 className="font-heading text-heading-2 text-text-primary">
+              What guests say
+            </h2>
             <TestimonialBlock testimonials={testimonials} />
           </div>
         </RevealOnScroll>
 
         <RevealOnScroll>
           <div className="flex flex-col gap-8">
-            <h2 className="font-heading text-heading-2 text-text-primary">Questions</h2>
+            <h2 className="font-heading text-heading-2 text-text-primary">
+              Questions
+            </h2>
             <FAQ />
           </div>
         </RevealOnScroll>
@@ -80,10 +87,13 @@ export default function SafarisPage() {
               Ready to start planning?
             </h2>
             <p className="text-body text-text-secondary max-w-md">
-              WhatsApp is the fastest way to reach me. Tell me when you&rsquo;re thinking of
-              going and what you most want to see.
+              WhatsApp is the fastest way to reach me. Tell me when you&rsquo;re
+              thinking of going and what you most want to see.
             </p>
-            <WhatsAppCTA context="safari-inquiry" label="Start the conversation" />
+            <WhatsAppCTA
+              context="safari-inquiry"
+              label="Start the conversation"
+            />
           </div>
         </RevealOnScroll>
       </div>

@@ -12,11 +12,13 @@ export default function PrintsPage() {
   return (
     <div className="pt-16">
       <div className="max-w-6xl mx-auto px-6 py-20">
-        <h1 className="font-heading text-heading-1 text-text-primary mb-4">Fine Art Prints</h1>
+        <h1 className="font-heading text-heading-1 text-text-primary mb-4">
+          Fine Art Prints
+        </h1>
         <p className="text-body text-text-secondary max-w-lg mb-16">
-          Printed on archival fine-art paper with pigment inks. Limited editions are hand-numbered
-          and signed. All orders are made to order — click a print to see sizes, pricing, and
-          enquire.
+          Printed on archival fine-art paper with pigment inks. Limited editions
+          are hand-numbered and signed. All orders are made to order — click a
+          print to see sizes, pricing, and enquire.
         </p>
 
         <PrintsView prints={prints} />
