@@ -5,23 +5,23 @@ import { Nav } from "@/components/layout/Nav";
 import { Footer } from "@/components/layout/Footer";
 
 // Place font files in /public/fonts/:
-//   CormorantGaramond-Regular.woff2, CormorantGaramond-Italic.woff2,
-//   CormorantGaramond-SemiBold.woff2
-//   Inter-Variable.woff2 (variable font covers all weights)
+//   CormorantGaramond-Regular.ttf, CormorantGaramond-Italic.ttf,
+//   CormorantGaramond-SemiBold.ttf  (from github.com/CatharsisFonts/Cormorant)
+//   InterVariable.ttf               (from github.com/rsms/inter releases)
 const cormorant = localFont({
   src: [
     {
-      path: "../public/fonts/CormorantGaramond-Regular.woff2",
+      path: "../public/fonts/CormorantGaramond-Regular.ttf",
       weight: "400",
       style: "normal",
     },
     {
-      path: "../public/fonts/CormorantGaramond-Italic.woff2",
+      path: "../public/fonts/CormorantGaramond-Italic.ttf",
       weight: "400",
       style: "italic",
     },
     {
-      path: "../public/fonts/CormorantGaramond-SemiBold.woff2",
+      path: "../public/fonts/CormorantGaramond-SemiBold.ttf",
       weight: "600",
       style: "normal",
     },
@@ -31,7 +31,7 @@ const cormorant = localFont({
 });
 
 const inter = localFont({
-  src: "../public/fonts/Inter-Variable.woff2",
+  src: "../public/fonts/InterVariable.ttf",
   variable: "--font-inter",
   display: "swap",
 });
