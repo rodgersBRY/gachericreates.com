@@ -27,7 +27,7 @@ const cormorant = localFont({
 });
 
 const inter = localFont({
-  src: "../public/fonts/InterVariable.ttf",
+  src: "../public/fonts/InterVariable.woff2",
   variable: "--font-inter",
   display: "swap",
 });
