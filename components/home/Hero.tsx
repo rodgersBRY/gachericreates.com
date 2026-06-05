@@ -14,7 +14,7 @@ export function Hero() {
         transition={{ duration: 1.2, ease: "easeOut" }}
       >
         <Image
-          src={cloudinaryUrl("DSC_6132_copy_gio3dz", 2000)}
+          src={cloudinaryUrl("DSC_7943_copy_2_nhdkhl", 2000)}
           alt="A lioness moves through golden grass at dawn in the Masai Mara"
           fill
           priority
@@ -34,7 +34,7 @@ export function Hero() {
             Gacheri
           </h1>
           <p className="font-body text-body text-white/80 max-w-md">
-            Kenya wildlife photography — in the field since 2012.
+            Kenya wildlife photography — in the field since 2023.
           </p>
         </motion.div>
       </div>
