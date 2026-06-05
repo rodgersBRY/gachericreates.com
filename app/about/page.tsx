@@ -14,7 +14,7 @@ export default function AboutPage() {
     <div className="pt-16">
       <div className="relative w-full aspect-[16/7] bg-surface">
         <Image
-          src={cloudinaryUrl("camera1_bygbu2", 2000)}
+          src={cloudinaryUrl("Maureen-DSC_8974_x4udom", 2000)}
           alt="Gacheri crouching low to photograph a pride of lions at sunrise in the Masai Mara"
           fill
           priority
@@ -24,7 +24,18 @@ export default function AboutPage() {
         <div className="absolute inset-0 bg-text-primary/20" />
       </div>
 
-      <div className="max-w-2xl mx-auto px-6 py-20 flex flex-col gap-12">
+      <div className="flex justify-center -mt-20 relative z-10">
+        <div className="relative w-72 h-72 rounded-full overflow-hidden ring-4 ring-background shadow-lg">
+          <Image
+            src={cloudinaryUrl("Maureen-Camera_Safari_PSM_2728-copy_y9yr4i", 320)}
+            alt="Portrait of Gacheri in the field"
+            fill
+            className="object-cover"
+          />
+        </div>
+      </div>
+
+      <div className="max-w-2xl mx-auto px-6 pt-12 pb-20 flex flex-col gap-12">
         <section className="flex flex-col gap-6">
           <h1 className="font-heading text-heading-1 text-text-primary">
             About Gacheri
@@ -38,7 +49,7 @@ export default function AboutPage() {
             that ordinary life rarely does.
           </p>
           <p className="text-body text-text-secondary leading-relaxed">
-            I&rsquo;ve been photographing professionally since 2012, working
+            I&rsquo;ve been photographing professionally since 2021, working
             across the Masai Mara, Samburu, Amboseli, Laikipia, and the northern
             reserves. I shoot mostly at dawn and dusk, mostly at ground level,
             mostly in silence.
@@ -51,17 +62,28 @@ export default function AboutPage() {
           </p>
         </section>
 
-        <section className="border-t border-surface pt-12 flex flex-col gap-3">
-          {/* Replace with actual award details */}
+        <section className="border-t border-surface pt-12 flex flex-col gap-4">
           <p className="text-label text-text-secondary tracking-widest uppercase">
             Recognition
           </p>
-          <p className="font-heading text-heading-3 text-text-primary">
-            Wildlife Photographer of the Year
-          </p>
-          <p className="text-caption text-text-secondary">
-            Commended &mdash; Behaviour: Mammals &mdash; 2023
-          </p>
+          <div className="flex gap-6 items-start">
+            <div className="relative w-20 h-28 shrink-0 overflow-hidden">
+              <Image
+                src={cloudinaryUrl("Elegance-in-Beads-By-Maureen-Gacheri-Turkana-Kenya-3rd_lfwyhn", 160)}
+                alt="Elegance in Beads — Tembea Kenya Photo Competition entry, Turkana"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="flex flex-col gap-2">
+              <p className="font-heading text-heading-3 text-text-primary">
+                Tembea Kenya Photo Competition
+              </p>
+              <p className="text-caption text-text-secondary">
+                Second Runner Up &mdash; &ldquo;Elegance in Beads&rdquo; &mdash; Turkana, Kenya &mdash; February 2025
+              </p>
+            </div>
+          </div>
         </section>
 
         <section className="border-t border-surface pt-12 flex flex-col gap-6">

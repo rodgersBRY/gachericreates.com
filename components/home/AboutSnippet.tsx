@@ -26,7 +26,7 @@ export function AboutSnippet() {
             </h2>
             <p className="text-body text-text-secondary leading-relaxed">
               {/* Replace with 2–3 sentences in Gacheri's voice */}
-              I&rsquo;ve spent over a decade in the bush learning the rhythms of the Mara, Samburu,
+              I&rsquo;ve spent over 5 years in the bush learning the rhythms of the Mara, Samburu,
               and the north. Every image I make is an attempt to slow down and pay attention — to
               the light, the animal, and the silence between.
             </p>

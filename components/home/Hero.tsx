@@ -14,8 +14,8 @@ export function Hero() {
         transition={{ duration: 1.2, ease: "easeOut" }}
       >
         <Image
-          src={cloudinaryUrl("DSC_7943_copy_2_nhdkhl", 2000)}
-          alt="A lioness moves through golden grass at dawn in the Masai Mara"
+          src={cloudinaryUrl("DSC_6132_copy_gio3dz", 2000)}
+          alt="Hot air baloon across the Masai Mara"
           fill
           priority
           sizes="100vw"
