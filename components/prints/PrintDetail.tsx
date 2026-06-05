@@ -124,7 +124,7 @@ export function PrintDetail({ print, onClose }: PrintDetailProps) {
               {print.available && (
                 <WhatsAppCTA
                   context="print-inquiry"
-                  label="Enquire about this print"
+                  label="Inquire about this print"
                   variant="primary"
                 />
               )}

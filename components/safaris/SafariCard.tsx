@@ -53,7 +53,7 @@ export function SafariCard({ safari }: SafariCardProps) {
 
         <WhatsAppCTA
           context="safari-inquiry"
-          label="Enquire about this safari"
+          label="Inquire about this safari"
           variant="outline"
           className="self-start"
         />
