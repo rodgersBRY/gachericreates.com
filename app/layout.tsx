@@ -57,7 +57,7 @@ export default function RootLayout({
         {process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID && (
           <Script
             defer
-            src="https://cloud.umami.is/script.js"
+            src={`${process.env.NEXT_PUBLIC_UMAMI_URL}/script.js`}
             data-website-id={process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID}
             strategy="afterInteractive"
           />
