@@ -8,6 +8,11 @@ export const metadata: Metadata = {
     "Get in touch with Gacheri for print inquiries, safari bookings, or general questions.",
 };
 
+const emailjsConfigured =
+  !!process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID &&
+  !!process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID &&
+  !!process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
+
 export default function ContactPage() {
   return (
     <div className="pt-16">
@@ -38,7 +43,7 @@ export default function ContactPage() {
             Or send a message
           </p>
 
-          <div className="flex gap-3 rounded-sm border border-accent-light bg-accent-light/30 px-4 py-4">
+          {!emailjsConfigured && <div className="flex gap-3 rounded-sm border border-accent-light bg-accent-light/30 px-4 py-4">
             <span className="mt-0.5 shrink-0 text-accent" aria-hidden="true">
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-3a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0v-3.5A.75.75 0 0 1 8 5Zm0 7a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z" fill="currentColor"/>
@@ -56,7 +61,7 @@ export default function ContactPage() {
               </a>{" "}
               — I typically respond within a few hours.
             </p>
-          </div>
+          </div>}
 
           <ContactForm />
         </div>
