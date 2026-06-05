@@ -25,7 +25,7 @@ export default function AboutPage() {
       </div>
 
       <div className="flex justify-center -mt-20 relative z-10">
-        <div className="relative w-72 h-72 rounded-full overflow-hidden ring-4 ring-background shadow-lg">
+        <div className="relative w-32 h-32 md:w-72 md:h-72 rounded-full overflow-hidden ring-4 ring-background shadow-lg">
           <Image
             src={cloudinaryUrl("Maureen-Camera_Safari_PSM_2728-copy_y9yr4i", 320)}
             alt="Portrait of Gacheri in the field"
