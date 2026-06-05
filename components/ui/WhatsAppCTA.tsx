@@ -31,7 +31,13 @@ export function WhatsAppCTA({
       : `${base} border border-accent text-accent hover:bg-accent hover:text-white`;
 
   return (
-    <a href={href} target="_blank" rel="noopener noreferrer" className={`${styles} ${className}`}>
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={`${styles} ${className}`}
+      data-umami-event={`whatsapp-${context}`}
+    >
       <WhatsAppIcon />
       {label}
     </a>

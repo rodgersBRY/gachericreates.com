@@ -9,7 +9,12 @@ interface GalleryCardProps {
 
 export function GalleryCard({ collection }: GalleryCardProps) {
   return (
-    <Link href={`/gallery/${collection.id}`} className="group block">
+    <Link
+      href={`/gallery/${collection.id}`}
+      className="group block"
+      data-umami-event="collection-view"
+      data-umami-event-collection={collection.title}
+    >
       <div className="relative aspect-[4/3] overflow-hidden rounded-sm bg-surface">
         <Image
           src={cloudinaryUrl(collection.coverImage, 1200)}

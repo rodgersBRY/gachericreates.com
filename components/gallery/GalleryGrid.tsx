@@ -16,6 +16,9 @@ export function GalleryGrid({ images, onImageClick }: GalleryGridProps) {
           onClick={() => onImageClick(index)}
           className="group relative aspect-square overflow-hidden rounded-sm bg-surface block w-full"
           aria-label={`View ${image.title} — ${image.location}`}
+          data-umami-event="image-open"
+          data-umami-event-title={image.title}
+          data-umami-event-location={image.location}
         >
           <Image
             src={cloudinaryUrl(image.src, 800)}

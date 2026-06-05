@@ -15,6 +15,8 @@ export function PrintCard({ print, onClick }: PrintCardProps) {
       onClick={onClick}
       className="group text-left block w-full"
       aria-label={`View details for ${print.title}`}
+      data-umami-event="print-view"
+      data-umami-event-title={print.title}
     >
       <div className="relative aspect-[4/5] overflow-hidden rounded-sm bg-surface">
         <Image
