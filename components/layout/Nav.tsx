@@ -62,7 +62,7 @@ export function Nav() {
         }}
         transition={{ duration: 0.4, ease: "easeInOut" }}
       >
-        <nav className="px-6 h-16 flex items-center justify-between">
+        <nav className="relative z-0 px-6 h-16 flex items-center justify-between">
           <Link href="/" className="flex items-center pointer-events-auto">
             <Image
               src="/logo.png"
@@ -137,7 +137,7 @@ export function Nav() {
         </nav>
 
         {open && (
-          <div className="md:hidden bg-background border-t border-surface px-6 py-4 pointer-events-auto">
+          <div className="md:hidden bg-background border-t border-surface px-6 py-4 pointer-events-auto relative z-10">
             <ul className="flex flex-col gap-4">
               {links.map(({ href, label }) => (
                 <li key={href}>
