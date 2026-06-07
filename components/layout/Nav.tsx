@@ -47,7 +47,7 @@ export function Nav() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 flex justify-center pointer-events-none">
       <motion.div
-        className="pointer-events-auto backdrop-blur-sm"
+        className="pointer-events-none backdrop-blur-sm"
         initial={false}
         animate={{
           width: isFloating ? "80%" : "100%",
@@ -63,7 +63,7 @@ export function Nav() {
         transition={{ duration: 0.4, ease: "easeInOut" }}
       >
         <nav className="px-6 h-16 flex items-center justify-between">
-          <Link href="/" className="flex items-center">
+          <Link href="/" className="flex items-center pointer-events-auto">
             <Image
               src="/logo.png"
               alt="GacheriCreates"
@@ -78,7 +78,7 @@ export function Nav() {
             />
           </Link>
 
-          <ul className="hidden md:flex items-center gap-8">
+          <ul className="hidden md:flex items-center gap-8 pointer-events-auto">
             {links.map(({ href, label }) => (
               <li key={href}>
                 <Link
@@ -99,7 +99,7 @@ export function Nav() {
             aria-label={open ? "Close navigation menu" : "Open navigation menu"}
             aria-expanded={open}
             onClick={() => setOpen((prev) => !prev)}
-            className="md:hidden flex flex-col gap-1.5 p-2"
+            className="md:hidden flex flex-col gap-1.5 p-2 pointer-events-auto"
           >
             {open ? (
               <>
@@ -137,7 +137,7 @@ export function Nav() {
         </nav>
 
         {open && (
-          <div className="md:hidden bg-background border-t border-surface px-6 py-4">
+          <div className="md:hidden bg-background border-t border-surface px-6 py-4 pointer-events-auto">
             <ul className="flex flex-col gap-4">
               {links.map(({ href, label }) => (
                 <li key={href}>

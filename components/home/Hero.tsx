@@ -34,7 +34,7 @@ export function Hero() {
             Gacheri
           </h1>
           <p className="font-body text-body text-white/80 max-w-md">
-            Kenya wildlife photography — in the field since 2023.
+            Kenya wildlife photography — in the field since 2022.
           </p>
         </motion.div>
       </div>

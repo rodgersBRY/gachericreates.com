@@ -6,7 +6,7 @@ import { cloudinaryUrl } from "@/lib/utils/cloudinary";
 export const metadata: Metadata = {
   title: "About Gacheri — GacheriCreates",
   description:
-    "Gacheri is a Kenya-based wildlife photographer with over a decade in the field. Her work spans the Masai Mara, Samburu, and the northern reserves.",
+    "Gacheri is a Kenya-based wildlife photographer based in Kenya. Her work spans the Masai Mara, Samburu, and the northern reserves.",
 };
 
 export default function AboutPage() {
@@ -49,7 +49,7 @@ export default function AboutPage() {
             that ordinary life rarely does.
           </p>
           <p className="text-body text-text-secondary leading-relaxed">
-            I&rsquo;ve been photographing professionally since 2021, working
+            I&rsquo;ve been photographing professionally since 2022, working
             across the Masai Mara, Samburu, Amboseli, Laikipia, and the northern
             reserves. I shoot mostly at dawn and dusk, mostly at ground level,
             mostly in silence.
