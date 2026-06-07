@@ -11,8 +11,8 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <div className="pt-16">
-      <div className="relative w-full aspect-[16/7] bg-surface">
+    <div>
+      <div data-hero className="relative w-full aspect-[16/12] bg-surface">
         <Image
           src={cloudinaryUrl("Maureen-DSC_8974_x4udom", 2000)}
           alt="Gacheri crouching low to photograph a pride of lions at sunrise in the Masai Mara"

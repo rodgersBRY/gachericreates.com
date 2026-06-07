@@ -52,9 +52,13 @@ export function Footer() {
         </nav>
       </div>
 
-      <div className="max-w-6xl mx-auto px-6 pb-8">
+      <div className="max-w-6xl mx-auto px-6 pb-8 flex flex-col md:flex-row gap-2 md:justify-between">
         <p className="text-label text-text-secondary">
           &copy; {new Date().getFullYear()} GacheriCreates. All rights reserved.
+        </p>
+
+        <p className="text-xs text-text-secondary under">
+          Developed and maintained by <a href="tel:254712413243" className="underline">Mawira</a>
         </p>
       </div>
     </footer>

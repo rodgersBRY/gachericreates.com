@@ -6,7 +6,7 @@ import { cloudinaryUrl } from "@/lib/utils/cloudinary";
 
 export function Hero() {
   return (
-    <section className="relative h-screen w-full overflow-hidden">
+    <section data-hero className="relative h-screen w-full overflow-hidden">
       <motion.div
         className="absolute inset-0"
         initial={{ opacity: 0, scale: 1.03 }}

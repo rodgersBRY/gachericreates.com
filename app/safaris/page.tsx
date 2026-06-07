@@ -17,8 +17,8 @@ export const metadata: Metadata = {
 
 export default function SafarisPage() {
   return (
-    <div className="pt-16">
-      <div className="relative w-full aspect-[16/7] bg-surface">
+    <div>
+      <div data-hero className="relative w-full aspect-[16/12] bg-surface">
         <Image
           src={cloudinaryUrl("influencer_content_caayzf", 2000)}
           alt="Gacheri photographing from a safari vehicle at sunrise in the Masai Mara"
@@ -27,6 +27,7 @@ export default function SafarisPage() {
           sizes="100vw"
           className="object-cover"
         />
+
         <div className="absolute inset-0 bg-text-primary/30" />
         <div className="absolute inset-0 flex flex-col justify-end pb-12 px-6 md:px-12 max-w-6xl mx-auto">
           <h1 className="font-heading text-heading-1 text-white">
